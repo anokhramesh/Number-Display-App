@@ -2,7 +2,7 @@ from tkinter import *
 window =Tk()
 window.title("Number Display App")
 window.geometry('500x300')
-label1= Label(window,text='Enter Your Name',fg='blue',font=('Arial',14))
+label1= Label(window,text='Enter A Number',fg='blue',font=('Arial',14))
 label1.grid(row=0,column=0,padx=5,pady=10)
 data = IntVar()
 textbox1= Entry(window,textvariable=data,fg='blue',font=('Arial',14))
